@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TestEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounting" EntityType="TestModel.Accounting" />
+    <EntitySet Name="Information" EntityType="TestModel.Information" />
+    <AssociationSet Name="FK_Accounting_Information" Association="TestModel.FK_Accounting_Information">
+      <End Role="Information" EntitySet="Information" />
+      <End Role="Accounting" EntitySet="Accounting" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Accounting">
+    <Key>
+      <PropertyRef Name="RecordNumber" />
+    </Key>
+    <Property Name="RecordNumber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ElectronicsCode" Type="Int32" Nullable="false" />
+    <Property Name="FIO" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="DateOfReceipt" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="QuantityProduct" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Information" Relationship="TestModel.FK_Accounting_Information" FromRole="Accounting" ToRole="Information" />
+  </EntityType>
+  <EntityType Name="Information">
+    <Key>
+      <PropertyRef Name="ElectronicsCode" />
+    </Key>
+    <Property Name="ElectronicsCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Category" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Prise" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Accounting" Relationship="TestModel.FK_Accounting_Information" FromRole="Information" ToRole="Accounting" />
+  </EntityType>
+  <Association Name="FK_Accounting_Information">
+    <End Type="TestModel.Information" Role="Information" Multiplicity="1" />
+    <End Type="TestModel.Accounting" Role="Accounting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Information">
+        <PropertyRef Name="ElectronicsCode" />
+      </Principal>
+      <Dependent Role="Accounting">
+        <PropertyRef Name="ElectronicsCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

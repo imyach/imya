@@ -1,0 +1,48 @@
+﻿<Page x:Class="Okun.Pages.LinqAcc"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Okun.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LinqAcc">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="4,69,-10,361">
+                <TextBlock Text="Номер записи" Width="100" FontWeight="Bold" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock Text="Название" Width="500" FontWeight="Bold" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock Text="ФИО принявшего" Width="200" FontWeight="Bold" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock Text="Дата поступления" Width="120" FontWeight="Bold" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock Text="Кол-во товара" Width="100" FontWeight="Bold" HorizontalAlignment="Left"></TextBlock>
+            </StackPanel>
+            <ListView x:Name="AccountingLV" Margin="0,94,0,41">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding RecordNumber}" Width="100" HorizontalAlignment="Left"></TextBlock>
+                            <TextBlock Text="{Binding Information.Name}" Width="500" HorizontalAlignment="Left" ></TextBlock>
+                            <TextBlock Text="{Binding FIO}" Width="200" HorizontalAlignment="Left"></TextBlock>
+                            <TextBlock Text="{Binding DateOfReceipt, StringFormat=\{0:dd.MM.yyyy\}}" Width="120" HorizontalAlignment="Left"></TextBlock>
+                        <TextBlock Text="{Binding QuantityProduct}" Width="100" HorizontalAlignment="Left"></TextBlock>
+                    </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 90, 5, 0,5">
+            <TextBlock Text="Поиск по дате: " FontSize="14" HorizontalAlignment="Left"></TextBlock>
+            <TextBox Width="150" Margin="5 0" x:Name="DateTbx" TextChanged="DateTbx_TextChanged"></TextBox>
+            <TextBlock Text="Поиск по количеству поступления: " FontSize="14" HorizontalAlignment="Left"></TextBlock>
+            <TextBox Width="150" Margin="5 0" x:Name="QuanProdTbx" TextChanged="QuqnProdTbx_TextChanged"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 120, 40, 0,40">
+            <TextBlock Text="Сортировать (ФИО): " FontSize="14" HorizontalAlignment="Left"></TextBlock>
+            <ComboBox x:Name="NameSrt" Width="150" SelectionChanged="NameSrt_SelectionChanged"></ComboBox>
+            <TextBlock Text="Фильрация по дате: " FontSize="14" HorizontalAlignment="Left" Margin="5,0,0,0"></TextBlock>
+            <DatePicker x:Name="DateFilt" Width="150" Margin="5,0,0,0" SelectedDateChanged="DateFilt_SelectedDateChanged"  ></DatePicker>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Button x:Name="BackBtn" Content="Назад" Margin="5" Height="30" Width="150" Click="BackBtn_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

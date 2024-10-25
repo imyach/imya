@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище TestModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Accounting">
+          <Key>
+            <PropertyRef Name="RecordNumber" />
+          </Key>
+          <Property Name="RecordNumber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ElectronicsCode" Type="int" Nullable="false" />
+          <Property Name="FIO" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="DateOfReceipt" Type="date" Nullable="false" />
+          <Property Name="QuantityProduct" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Information">
+          <Key>
+            <PropertyRef Name="ElectronicsCode" />
+          </Key>
+          <Property Name="ElectronicsCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="Type" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="Category" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="Prise" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Accounting_Information">
+          <End Role="Information" Type="Self.Information" Multiplicity="1" />
+          <End Role="Accounting" Type="Self.Accounting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Information">
+              <PropertyRef Name="ElectronicsCode" />
+            </Principal>
+            <Dependent Role="Accounting">
+              <PropertyRef Name="ElectronicsCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище TestModelContainer">
+          <EntitySet Name="Accounting" EntityType="Self.Accounting" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Information" EntityType="Self.Information" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Accounting_Information" Association="Self.FK_Accounting_Information">
+            <End Role="Information" EntitySet="Information" />
+            <End Role="Accounting" EntitySet="Accounting" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="TestEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounting" EntityType="TestModel.Accounting" />
+          <EntitySet Name="Information" EntityType="TestModel.Information" />
+          <AssociationSet Name="FK_Accounting_Information" Association="TestModel.FK_Accounting_Information">
+            <End Role="Information" EntitySet="Information" />
+            <End Role="Accounting" EntitySet="Accounting" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Accounting">
+          <Key>
+            <PropertyRef Name="RecordNumber" />
+          </Key>
+          <Property Name="RecordNumber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ElectronicsCode" Type="Int32" Nullable="false" />
+          <Property Name="FIO" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="DateOfReceipt" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="QuantityProduct" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Information" Relationship="TestModel.FK_Accounting_Information" FromRole="Accounting" ToRole="Information" />
+        </EntityType>
+        <EntityType Name="Information">
+          <Key>
+            <PropertyRef Name="ElectronicsCode" />
+          </Key>
+          <Property Name="ElectronicsCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="Category" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="Prise" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Accounting" Relationship="TestModel.FK_Accounting_Information" FromRole="Information" ToRole="Accounting" />
+        </EntityType>
+        <Association Name="FK_Accounting_Information">
+          <End Type="TestModel.Information" Role="Information" Multiplicity="1" />
+          <End Type="TestModel.Accounting" Role="Accounting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Information">
+              <PropertyRef Name="ElectronicsCode" />
+            </Principal>
+            <Dependent Role="Accounting">
+              <PropertyRef Name="ElectronicsCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище TestModelContainer" CdmEntityContainer="TestEntities">
+          <EntitySetMapping Name="Accounting">
+            <EntityTypeMapping TypeName="TestModel.Accounting">
+              <MappingFragment StoreEntitySet="Accounting">
+                <ScalarProperty Name="QuantityProduct" ColumnName="QuantityProduct" />
+                <ScalarProperty Name="DateOfReceipt" ColumnName="DateOfReceipt" />
+                <ScalarProperty Name="FIO" ColumnName="FIO" />
+                <ScalarProperty Name="ElectronicsCode" ColumnName="ElectronicsCode" />
+                <ScalarProperty Name="RecordNumber" ColumnName="RecordNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Information">
+            <EntityTypeMapping TypeName="TestModel.Information">
+              <MappingFragment StoreEntitySet="Information">
+                <ScalarProperty Name="Prise" ColumnName="Prise" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ElectronicsCode" ColumnName="ElectronicsCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

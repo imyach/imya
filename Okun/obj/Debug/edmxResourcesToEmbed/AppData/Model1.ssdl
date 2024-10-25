@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище TestModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Accounting">
+    <Key>
+      <PropertyRef Name="RecordNumber" />
+    </Key>
+    <Property Name="RecordNumber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ElectronicsCode" Type="int" Nullable="false" />
+    <Property Name="FIO" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="DateOfReceipt" Type="date" Nullable="false" />
+    <Property Name="QuantityProduct" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Information">
+    <Key>
+      <PropertyRef Name="ElectronicsCode" />
+    </Key>
+    <Property Name="ElectronicsCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Type" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Category" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Prise" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Accounting_Information">
+    <End Role="Information" Type="Self.Information" Multiplicity="1" />
+    <End Role="Accounting" Type="Self.Accounting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Information">
+        <PropertyRef Name="ElectronicsCode" />
+      </Principal>
+      <Dependent Role="Accounting">
+        <PropertyRef Name="ElectronicsCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище TestModelContainer">
+    <EntitySet Name="Accounting" EntityType="Self.Accounting" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Information" EntityType="Self.Information" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Accounting_Information" Association="Self.FK_Accounting_Information">
+      <End Role="Information" EntitySet="Information" />
+      <End Role="Accounting" EntitySet="Accounting" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

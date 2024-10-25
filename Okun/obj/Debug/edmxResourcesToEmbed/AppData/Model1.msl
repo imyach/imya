@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище TestModelContainer" CdmEntityContainer="TestEntities">
+    <EntitySetMapping Name="Accounting">
+      <EntityTypeMapping TypeName="TestModel.Accounting">
+        <MappingFragment StoreEntitySet="Accounting">
+          <ScalarProperty Name="QuantityProduct" ColumnName="QuantityProduct" />
+          <ScalarProperty Name="DateOfReceipt" ColumnName="DateOfReceipt" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="ElectronicsCode" ColumnName="ElectronicsCode" />
+          <ScalarProperty Name="RecordNumber" ColumnName="RecordNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Information">
+      <EntityTypeMapping TypeName="TestModel.Information">
+        <MappingFragment StoreEntitySet="Information">
+          <ScalarProperty Name="Prise" ColumnName="Prise" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ElectronicsCode" ColumnName="ElectronicsCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

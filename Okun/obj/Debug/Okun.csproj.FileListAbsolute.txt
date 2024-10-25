@@ -1,0 +1,219 @@
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Test.mdf
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Test_log.ldf
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Okun.exe.config
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Okun.exe
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Okun.pdb
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\ControlzEx.dll
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MahApps.Metro.dll
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MaterialDesignColors.dll
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\ControlzEx.pdb
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\ControlzEx.xml
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MahApps.Metro.pdb
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MahApps.Metro.xml
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MaterialDesignColors.pdb
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\student\source\repos\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\MainWindow.g.cs
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Pages\MainPages.g.cs
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\App.g.cs
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun_Content.g.cs
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun_MarkupCompile.cache
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun_MarkupCompile.lref
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\App.baml
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\MainWindow.baml
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Pages\MainPages.baml
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.g.resources
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.Properties.Resources.resources
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.csproj.GenerateResource.cache
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.csproj.CopyComplete
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.exe
+C:\Users\student\source\repos\Okun\Okun\obj\Debug\Okun.pdb
+D:\3 курс\Okun\Okun\bin\Debug\Test.mdf
+D:\3 курс\Okun\Okun\bin\Debug\Test_log.ldf
+D:\3 курс\Okun\Okun\bin\Debug\Okun.exe.config
+D:\3 курс\Okun\Okun\bin\Debug\Okun.exe
+D:\3 курс\Okun\Okun\bin\Debug\Okun.pdb
+D:\3 курс\Okun\Okun\bin\Debug\ControlzEx.dll
+D:\3 курс\Okun\Okun\bin\Debug\EntityFramework.dll
+D:\3 курс\Okun\Okun\bin\Debug\EntityFramework.SqlServer.dll
+D:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.dll
+D:\3 курс\Okun\Okun\bin\Debug\MaterialDesignColors.dll
+D:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.dll
+D:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\3 курс\Okun\Okun\bin\Debug\ControlzEx.pdb
+D:\3 курс\Okun\Okun\bin\Debug\ControlzEx.xml
+D:\3 курс\Okun\Okun\bin\Debug\EntityFramework.xml
+D:\3 курс\Okun\Okun\bin\Debug\EntityFramework.SqlServer.xml
+D:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.pdb
+D:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.xml
+D:\3 курс\Okun\Okun\bin\Debug\MaterialDesignColors.pdb
+D:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.pdb
+D:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\3 курс\Okun\Okun\bin\Debug\ru\EntityFramework.resources.dll
+D:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.AssemblyReference.cache
+D:\3 курс\Okun\Okun\obj\Debug\Pages\Accounting.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\Informarion.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\MainPages.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\App.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Okun_Content.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Okun_MarkupCompile.cache
+D:\3 курс\Okun\Okun\obj\Debug\Okun_MarkupCompile.lref
+D:\3 курс\Okun\Okun\obj\Debug\App.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\Accounting.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\Informarion.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\MainPages.baml
+D:\3 курс\Okun\Okun\obj\Debug\Okun.g.resources
+D:\3 курс\Okun\Okun\obj\Debug\Okun.Properties.Resources.resources
+D:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.GenerateResource.cache
+D:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.CoreCompileInputs.cache
+D:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.CopyComplete
+D:\3 курс\Okun\Okun\obj\Debug\Okun.exe
+D:\3 курс\Okun\Okun\obj\Debug\Okun.pdb
+D:\3 курс\Okun\Okun\obj\Debug\MainWindow.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\MainWindow.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditAcc.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditAcc.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditInf.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditInf.baml
+E:\3 курс\Okun\Okun\bin\Debug\Test.mdf
+E:\3 курс\Okun\Okun\bin\Debug\Test_log.ldf
+E:\3 курс\Okun\Okun\bin\Debug\Okun.exe.config
+E:\3 курс\Okun\Okun\bin\Debug\Okun.exe
+E:\3 курс\Okun\Okun\bin\Debug\Okun.pdb
+E:\3 курс\Okun\Okun\bin\Debug\ControlzEx.dll
+E:\3 курс\Okun\Okun\bin\Debug\EntityFramework.dll
+E:\3 курс\Okun\Okun\bin\Debug\EntityFramework.SqlServer.dll
+E:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.dll
+E:\3 курс\Okun\Okun\bin\Debug\MaterialDesignColors.dll
+E:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.dll
+E:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\3 курс\Okun\Okun\bin\Debug\ControlzEx.pdb
+E:\3 курс\Okun\Okun\bin\Debug\ControlzEx.xml
+E:\3 курс\Okun\Okun\bin\Debug\EntityFramework.xml
+E:\3 курс\Okun\Okun\bin\Debug\EntityFramework.SqlServer.xml
+E:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.pdb
+E:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.xml
+E:\3 курс\Okun\Okun\bin\Debug\MaterialDesignColors.pdb
+E:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.pdb
+E:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\3 курс\Okun\Okun\bin\Debug\ru\EntityFramework.resources.dll
+E:\3 курс\Okun\Okun\obj\Debug\MainWindow.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\Accounting.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditAcc.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditInf.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\Informarion.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\MainPages.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\App.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Okun_Content.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Okun_MarkupCompile.cache
+E:\3 курс\Okun\Okun\obj\Debug\Okun_MarkupCompile.lref
+E:\3 курс\Okun\Okun\obj\Debug\App.baml
+E:\3 курс\Okun\Okun\obj\Debug\MainWindow.baml
+E:\3 курс\Okun\Okun\obj\Debug\Pages\Accounting.baml
+E:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditAcc.baml
+E:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditInf.baml
+E:\3 курс\Okun\Okun\obj\Debug\Pages\Informarion.baml
+E:\3 курс\Okun\Okun\obj\Debug\Pages\MainPages.baml
+E:\3 курс\Okun\Okun\obj\Debug\Okun.g.resources
+E:\3 курс\Okun\Okun\obj\Debug\Okun.Properties.Resources.resources
+E:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.GenerateResource.cache
+E:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.CoreCompileInputs.cache
+E:\3 курс\Okun\Okun\obj\Debug\Okun.exe
+E:\3 курс\Okun\Okun\obj\Debug\Okun.pdb
+G:\3 курс\Okun\Okun\bin\Debug\Test.mdf
+G:\3 курс\Okun\Okun\bin\Debug\Test_log.ldf
+G:\3 курс\Okun\Okun\bin\Debug\Okun.exe.config
+G:\3 курс\Okun\Okun\bin\Debug\Okun.exe
+G:\3 курс\Okun\Okun\bin\Debug\Okun.pdb
+G:\3 курс\Okun\Okun\bin\Debug\ControlzEx.dll
+G:\3 курс\Okun\Okun\bin\Debug\EntityFramework.dll
+G:\3 курс\Okun\Okun\bin\Debug\EntityFramework.SqlServer.dll
+G:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.dll
+G:\3 курс\Okun\Okun\bin\Debug\MaterialDesignColors.dll
+G:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.dll
+G:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.dll
+G:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.dll
+G:\3 курс\Okun\Okun\bin\Debug\ControlzEx.pdb
+G:\3 курс\Okun\Okun\bin\Debug\ControlzEx.xml
+G:\3 курс\Okun\Okun\bin\Debug\EntityFramework.xml
+G:\3 курс\Okun\Okun\bin\Debug\EntityFramework.SqlServer.xml
+G:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.pdb
+G:\3 курс\Okun\Okun\bin\Debug\MahApps.Metro.xml
+G:\3 курс\Okun\Okun\bin\Debug\MaterialDesignColors.pdb
+G:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.MahApps.pdb
+G:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.pdb
+G:\3 курс\Okun\Okun\bin\Debug\MaterialDesignThemes.Wpf.xml
+G:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+G:\3 курс\Okun\Okun\bin\Debug\Microsoft.Xaml.Behaviors.xml
+G:\3 курс\Okun\Okun\bin\Debug\ru\EntityFramework.resources.dll
+G:\3 курс\Okun\Okun\obj\Debug\Okun.csprojAssemblyReference.cache
+G:\3 курс\Okun\Okun\obj\Debug\MainWindow.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\Pages\Accounting.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditAcc.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditInf.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\Pages\Informarion.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\Pages\MainPages.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\App.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\Okun_Content.g.cs
+G:\3 курс\Okun\Okun\obj\Debug\Okun_MarkupCompile.cache
+G:\3 курс\Okun\Okun\obj\Debug\Okun_MarkupCompile.lref
+G:\3 курс\Okun\Okun\obj\Debug\App.baml
+G:\3 курс\Okun\Okun\obj\Debug\MainWindow.baml
+G:\3 курс\Okun\Okun\obj\Debug\Pages\Accounting.baml
+G:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditAcc.baml
+G:\3 курс\Okun\Okun\obj\Debug\Pages\AddEditInf.baml
+G:\3 курс\Okun\Okun\obj\Debug\Pages\Informarion.baml
+G:\3 курс\Okun\Okun\obj\Debug\Pages\MainPages.baml
+G:\3 курс\Okun\Okun\obj\Debug\Okun.g.resources
+G:\3 курс\Okun\Okun\obj\Debug\Okun.Properties.Resources.resources
+G:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.GenerateResource.cache
+G:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.CoreCompileInputs.cache
+G:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.CopyComplete
+G:\3 курс\Okun\Okun\obj\Debug\Okun.exe
+G:\3 курс\Okun\Okun\obj\Debug\Okun.pdb
+E:\3 курс\Okun\Okun\obj\Debug\Pages\LinqAcc.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\LinqAcc.baml
+E:\3 курс\Okun\Okun\obj\Debug\Pages\LinqInf.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\Transition.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\LinqInf.baml
+E:\3 курс\Okun\Okun\obj\Debug\Pages\Transition.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\LinqAcc.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\LinqInf.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\Transition.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\TransitionExPdf.g.cs
+D:\3 курс\Okun\Okun\obj\Debug\Pages\LinqAcc.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\LinqInf.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\Transition.baml
+D:\3 курс\Okun\Okun\obj\Debug\Pages\TransitionExPdf.baml
+D:\3 курс\Okun\Okun\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\3 курс\Okun\Okun\bin\Debug\BouncyCastle.Cryptography.dll
+E:\3 курс\Okun\Okun\bin\Debug\itextsharp.dll
+E:\3 курс\Okun\Okun\bin\Debug\BouncyCastle.Cryptography.xml
+E:\3 курс\Okun\Okun\bin\Debug\itextsharp.xml
+E:\3 курс\Okun\Okun\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.AssemblyReference.cache
+E:\3 курс\Okun\Okun\obj\Debug\Pages\TransitionExPdf.g.cs
+E:\3 курс\Okun\Okun\obj\Debug\Pages\TransitionExPdf.baml
+E:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.Up2Date
+D:\3 курс\Okun\Okun\bin\Debug\BouncyCastle.Cryptography.dll
+D:\3 курс\Okun\Okun\bin\Debug\itextsharp.dll
+D:\3 курс\Okun\Okun\bin\Debug\BouncyCastle.Cryptography.xml
+D:\3 курс\Okun\Okun\bin\Debug\itextsharp.xml
+D:\3 курс\Okun\Okun\obj\Debug\Okun.csproj.SuggestedBindingRedirects.cache

@@ -1,0 +1,26 @@
+﻿<Page x:Class="Okun.Pages.AddEditAcc"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Okun.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddEditAcc">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Код электроники" Margin="5"/>
+            <ComboBox Name="InfCmb" SelectedItem="{Binding Information}" DisplayMemberPath="Name" Margin="5"/>
+            <TextBlock Text="ФИО принявшего" Margin="5"/>
+            <TextBox Text="{Binding FIO}" Margin="5"/>
+            <TextBlock Text="Дата поступления" Margin="5"/>
+            <DatePicker SelectedDate ="{Binding DateOfReceipt}" x:Name="DatePick" Margin="5"/>
+            <TextBlock Text="Кол-во товара" Margin="5"/>
+            <TextBox Text="{Binding QuantityProduct}" Margin="5"/>
+            <Button x:Name="SaveBtn" Content="Сохранить" Margin="5" Width="150" Height="30" Click="SaveBtn_Click"/>
+            <Button x:Name="BackBtn" Content="Отменить" Margin="5" Width="150" Height="30" Click="BackBtn_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Page>
